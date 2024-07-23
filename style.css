@@ -149,5 +149,8 @@ footer {
 
   li:hover {
     background-color: var(--color-green);
+    a {
+      color: var(--color-gray-900);
+    }
   }
 }
