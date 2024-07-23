@@ -1,7 +1,7 @@
 # Frontend Mentor - QR code component solution
 
 Hi, Niels here.
-This is a solution to the [Social links profile challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Social links profile challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ).
 [Hosted on GH pages](https://github.com/nielsfechtel/frontendmentor_1_social_links_profile).
 
 ## Table of contents
