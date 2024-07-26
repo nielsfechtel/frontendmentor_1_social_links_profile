@@ -16,17 +16,14 @@
 
 html,
 body {
-  width: 100dvw;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  height: 100dvh;
+  height: 100svh;
   font-family: var(--font-family);
 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
+  display: grid;
+  grid-template-rows: 1fr min-content;
 
   background-color: var(--color-gray-900);
 }
@@ -40,28 +37,9 @@ main {
   padding: 0;
 }
 
-footer {
-  justify-self: start;
-  display: grid;
-  place-items: center;
-  width: 100dvw;
-  height: 40px;
-  color: var(--color-gray-800);
-  align-content: center;
-  text-align: center;
-  background-color: darkgrey;
-
-  font-size: 0.65rem;
-
-  a:link,
-  a:visited {
-    color: var(--color-gray-900);
-  }
-}
-
 .container {
   height: max(40vh, 550px);
-  width: max(12vw, 250px);
+  width: max(22vw, 300px);
   background-color: var(--color-gray-800);
 
   display: flex;
@@ -70,7 +48,7 @@ footer {
 
   border-radius: 20px;
   margin: 1rem;
-  padding: 1.2rem;
+  padding: 2.7rem;
 }
 
 .info {
